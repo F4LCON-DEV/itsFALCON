@@ -1,0 +1,265 @@
+body {
+    background: rgb(0, 0, 0);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    margin: 0 45px 0 45px;
+    text-align: center;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.features div{
+    background: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    flex: content;
+    height: 585px;
+
+   
+}
+.links{
+    background: rgb(0, 0, 0);
+    padding: 10px 40px 10px 40px;
+    margin: 0 20px 0 20px;
+    height: 300px;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-weight: 750;
+    text-align: center;
+    text-decoration: none;
+    background-image: url(images/Forest.png);
+    font-size: xx-large;
+    background-size: 100%;
+    background-position: center;
+    
+    
+}
+footer {
+    background: rgb(20, 20, 20);
+    padding: 10px 40px 10px 75px;
+    text-align: center;
+    opacity: 40%;
+    font-size: small;
+}
+div {
+    margin: auto;
+    align-items: center;
+    size: 200px 200px;
+    display: flex;
+    flex-direction: column;
+   
+}
+link {
+    color: white;
+    text-decoration: none;
+    
+}
+.links main {
+    color: rgb(0, 128, 255);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+strong {
+    color: rgb(0, 128, 255);
+    font-size: xx-large;
+    font-weight: 750;
+    text-align: center;
+    font-style: italic;
+    border-color: black;   
+}
+.mobile {
+    display: none;
+    color: rgb(0, 128, 255);
+    text-align: left;
+    background: rgb(0, 0, 0);
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0 0 0 20px;
+    font-style: italic
+
+}
+.desktop {
+    color: rgb(0, 128, 255);
+    text-align: left;
+    background: rgb(0, 0, 0);
+    margin: 0;
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0 0 0 20px;
+    font-style: italic
+}
+.links .Tablet {
+    color: white;
+    text-decoration: none;
+    display: none;
+}
+.link .Desktop {
+    color: white;
+    text-decoration: none;
+}
+.features {
+    background: white;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 585px;
+    margin: auto;
+}
+.features figure {
+    text-align: center;
+
+}
+.features figure img {
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: rgb(0, 0, 0) 0 0 10px;
+    width: 350px;
+}
+.features figure figcaption {
+    font-weight: 600;
+}
+figure {
+    margin: auto;
+}
+
+.external {
+    color: black;
+    font-weight: 600;
+}
+.extra {
+    color: black;
+    font-weight: 600;
+}
+.About2 {
+    background: white;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 585px;
+    margin: auto;
+}
+figcaption {
+    font-weight: 600;
+    text-align: center;
+}
+img {
+    align-items: center;
+}
+.please {
+    color: rgb(115, 115, 115);
+    font-size: small;
+}
+.MAIN {
+    font-size: x-large;
+}
+.contact-form {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 0;
+    height: 585px;
+    margin: 0;
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+}
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h2 {
+    color: rgb(0, 128, 255);
+    font-weight: 750;
+    font-size: 40px;
+}
+.content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.contact-inputs {
+    width: 500px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    background: black;
+}
+.submitbutton:hover {
+    background: rgb(0, 128, 255);
+}
+.submitbutton {
+    border-radius: 10px ;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+.content-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-inputs::placeholder {
+    color: white;
+}
+@media screen and (min-width:630px) and (max-width: 1150px) {
+    .links .Tablet {
+        display: inline-block;
+    }
+    .links .Desktop {
+        display: none;
+    }
+    .features {
+        display: block;
+        height: 1200px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mobile {
+       text-align: center;
+       display: block;
+    }
+    .desktop {
+        display: none;
+    }
+    .features {
+        display: block;
+        height: 1150px;
+    }
+    .About2 {
+        display: block;
+        align-items: center;
+        height: 250px;
+    }
+    .please {
+        display: none;
+    }
+    .extra {
+        display:  none;
+    }
+    .contact-inputs {
+     width: 400px;        
+    }
+}
